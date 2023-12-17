@@ -36,7 +36,12 @@
     transform: rotate(360deg);
   }
 } */
-
+.row {
+  padding: 1rem;
+}
+.col {
+  padding: 1rem;
+}
 .background-image-container {
   max-width: 100%;
   height: 100vh;
