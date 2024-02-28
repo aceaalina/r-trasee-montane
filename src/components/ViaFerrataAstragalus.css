@@ -1,0 +1,342 @@
+.container-viaferrata {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-viaferrata {
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+
+.header-left-side-viaferrata {
+  width: 50%;
+  display: flex;
+  background-color: white;
+  align-items: normal;
+}
+
+.header-right-side-viaferrata {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: normal;
+}
+
+.header-left-side-viaferrata h1 {
+  display: flex;
+  align-items: flex-end;
+  font-size: 20px;
+  font-family: "Rubik", "Montserrat", sans-serif;
+}
+
+.header-strip {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgb(58, 157, 182) 0%,
+    rgb(159, 214, 236) 35%,
+    rgba(66, 186, 241, 0.979) 100%
+  );
+}
+.content-viaferrataAstragalus {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.up-section-astragalus img {
+  border-radius: 20px;
+  width: 100%;
+  height: 2%;
+  opacity: 0.7;
+}
+.up-section-astragalus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+  border-radius: 20px;
+  background: url("../assets/assets for Via Ferrata/background_climbing.jpg")
+    no-repeat center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.up-section-astragalus:hover {
+  background: none;
+}
+.up-section-astragalus img:hover {
+  border-radius: 20px;
+  width: 100%;
+  height: 2%;
+  opacity: 1;
+}
+
+.up-section-astragalus h1 {
+  font-size: 25px;
+  font-family: "Rubik", "Montserrat", sans-serif;
+  color: #ffffff;
+  text-shadow: 5px 5px 5px rgba(0, 0, 1, 0.664);
+  line-height: 50px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+  text-transform: none;
+}
+.up-section-astragalus h1:hover {
+  color: black;
+  text-shadow: #ffffff;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.middle h2 {
+  font-size: 20px;
+  font-family: "Rubik", "Montserrat", sans-serif;
+  color: #228c9a;
+  text-shadow: 5px 5px 5px rgba(147, 147, 148, 0.664);
+  margin: 10px 0 10px 40px;
+}
+.middle p {
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 1.5;
+  display: flex;
+}
+.info-location .route-name .route-via-ferrata {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.route-via-ferrata a {
+  color: #fe0909;
+  margin-left: 15px;
+  font-size: 16px;
+}
+.route-name h2 {
+  font-size: 20px;
+  font-family: "Rubik", "Montserrat", sans-serif;
+  color: #228c9a;
+  text-shadow: 5px 5px 5px rgba(147, 147, 148, 0.664);
+  margin-right: 10px;
+}
+.route-name img {
+  margin-right: 20px;
+  justify-content: center;
+}
+table {
+  border: 1px ridge rgb(251, 254, 255);
+  width: 80%;
+  height: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  display: flex;
+  border-collapse: collapse;
+  justify-content: center;
+  margin: 10px;
+}
+.table td,
+.table th {
+  padding: 20px 7px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "helvetica neue";
+  color: #605d5d;
+}
+.table tr:first-child {
+  border-top: 2px solid rgb(98, 93, 93);
+}
+.table tr:last-child {
+  border-bottom: 2px solid rgb(98, 93, 93);
+}
+.traseul1 {
+  border-top: 5px solid rgb(224, 7, 7);
+}
+.traseul2 {
+  border-top: 5px solid rgb(238, 242, 2);
+}
+.traseul3 {
+  border-top: 5px solid rgba(210, 10, 241, 0.61);
+}
+.traseul4 {
+  border-top: 5px solid rgb(24, 229, 38);
+}
+.traseul5 {
+  border-top: 5px solid rgb(4, 156, 238);
+}
+ul {
+  list-style: linear-gradient(
+    90deg,
+    rgb(168, 208, 248) 0%,
+    rgb(141, 143, 145) 35%,
+    rgba(141, 205, 235, 0.979) 100%
+  );
+}
+.equipment-viaferrata ul li {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-left: 50px;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: "helvetica neue";
+}
+
+.equipment {
+}
+
+.equipment-viaferrata p {
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.pictures {
+  padding: 5px;
+}
+@media (max-width: 576px) {
+  .up-section-astragalus h1 {
+    font-size: 20px;
+  }
+  .up-section-astragalus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+    background: url(../assets/assets for Via Ferrata/background_climbing.jpg)
+      no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 576px) {
+  .equipment-viaferrata ul li {
+    font-size: 18px;
+    font-family: "helvetica neue";
+    color: #605d5d;
+    line-height: 1.5;
+    margin-left: 50px;
+    margin-top: 10px;
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  figure {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  figure:hover img {
+    transform: scale(1.2); /* Modificați valoarea la nevoie pentru a obține efectul dorit */
+  }
+  
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+.container {
+  margin-bottom: 100px;
+}
+.warning-section {
+  display: flex;
+  background-color: #ece6e6;
+  color: #e24f4f;
+  padding: 5px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.warning-section img {
+ margin: 0;
+ padding: 10px;
+}
+.warning-section p {
+  display: flex;
+
+}
+.table {
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 950px) {
+ 
+  .table table {
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  .table th,
+  .table td {
+    padding: 8px; 
+    border-bottom: 1px solid #ddd; 
+    text-align: left;
+    margin: 2px;
+  }
+}
+@media screen and (max-width: 576px) {
+
+  .table table {
+    display: flex;
+    flex-direction: column; 
+  }
+  .table table tr {
+    border-bottom: 1px solid #ddd; 
+    margin-bottom: 10px; 
+  }
+  .table table td {
+    display: flex;
+    justify-content: space-between; 
+    padding: 6px; 
+  }
+  .table table th,
+  .table table td {
+    text-align: left;
+    font-size: 16px;
+  }
+  
+}

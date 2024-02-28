@@ -1,0 +1,360 @@
+.container-viaferrata {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-viaferrata {
+  display: flex;
+  height: 8%;
+  width: 100%;
+}
+
+.header-left-side-viaferrata {
+  width: 50%;
+  display: flex;
+  background-color: white;
+  align-items: normal;
+}
+
+.header-right-side-viaferrata {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: normal;
+}
+
+.header-left-side-viaferrata h1 {
+  display: flex;
+  align-items: flex-end;
+  font-size: 20px;
+  font-family: "Rubik", "Montserrat", sans-serif;
+}
+
+.header-strip {
+  width: 100%;
+  height: 3%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgb(58, 157, 182) 0%,
+    rgb(159, 214, 236) 35%,
+    rgba(66, 186, 241, 0.979) 100%
+  );
+}
+
+.content-viaferrata {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.center-viaferrata {
+  width: 100%;
+  height: 42%;
+  border-radius: 15px;
+  background-image: url("../assets/assets\ for\ Via\ Ferrata/viaferrata01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 5px 5px 10px rgba(24, 141, 250, 0.664);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", "Montserrat", sans-serif;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+
+.up {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.up h1 {
+  font-size: 58px;
+  text-shadow: 5px 5px 10px rgba(24, 141, 250, 0.664);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.up h2 {
+  font-size: 25px;
+  text-align: center;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.header-buttons-viaferrata {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-buttons-viaferrata img {
+  display: flex;
+  margin: 0 10px 0 10px;
+}
+
+.header-buttons-viaferrata button {
+  display: flex;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.header-buttons-viaferrata a:link {
+  color: #337ab7;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+
+.grid-section {
+  display: grid;
+  height: 40%;
+  grid-template-columns: 32% 32% 32%;
+  grid-template-rows: 100%;
+  grid-gap: 36px;
+}
+.grid-item {
+  display: grid;
+  grid-gap: 10px;
+  border-radius: 15px;
+}
+
+.grid-item-1 {
+  background-image: url("../assets/assets\ for\ Via\ Ferrata/viaferrata02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-item-3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid-item-2-1 {
+  grid-row: span 1;
+  background-image: url("../assets/assets\ for\ Via\ Ferrata/viaferrata03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid-item-2-2 {
+  grid-row: span 1;
+  background-image: url("../assets/assets\ for\ Via\ Ferrata/viaferrata04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid-item-2-1,
+.grid-item-2-2 {
+  grid-row: span 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item:hover {
+  opacity: 0.8;
+}
+
+.grid-item-1 a {
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+  margin-top: 300px;
+  margin-left: 50px;
+  font-family: "Rubik", "Montserrat", sans-serif;
+  text-shadow: 5px 5px 10px rgba(24, 141, 250, 0.664);
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+.grid-item-1 a:hover {
+  text-shadow: 5px 5px 10px rgba(24, 141, 250, 0.664);
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.slider-viaferrata {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.images-viaferrata {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.images-viaferrata img {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  transition: all 0.9s ease;
+}
+
+.images-viaferrata input {
+  display: none;
+}
+
+.next {
+  display: flex;
+  justify-content: center;
+  margin: 1px;
+  position: fixed;
+}
+
+.next label {
+  align-items: center;
+  height: 10px;
+  width: 10px;
+  border: solid rgb(253, 253, 253) 2px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.next label:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+#img1:checked ~ .imag1 {
+  margin-left: 0;
+  transition-duration: 0.25s;
+}
+
+#img2:checked ~ .imag2 {
+  margin-left: -100%;
+  transition-duration: 0.25s;
+}
+
+#img3:checked ~ .imag3 {
+  margin-left: -200%;
+  transition-duration: 0.25s;
+}
+
+#img4:checked ~ .imag4 {
+  margin-left: -300%;
+  transition-duration: 0.25s;
+}
+@media (max-width: 576px) {
+  .content-viaferrata {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .center-viaferrata {
+    width: 100%;
+    height: 50%;
+    background-image: url("../assets/assets\ for\ Via\ Ferrata/viaferrata01.jpg");
+    color: #ffffff;
+    text-shadow: 5px 5px 10px rgba(24, 141, 250, 0.664);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik", "Montserrat", sans-serif;
+    font-weight: bolder;
+    margin-top: 30px;
+  }
+  .up {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .up h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 0;
+    margin: 10px 0 10px 0;
+  }
+  .up h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+  .header-buttons-viaferrata {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-buttons-viaferrata button {
+    margin: 5px;
+    
+  }
+  .header-buttons-viaferrata p:hover {
+    font-size: 18px;
+    transition-duration: 0.25s;
+  }
+  p {
+    font-size: 12px;
+    font-family: "helvetica neue";
+    padding: 5px;
+    margin: 0;
+  }
+  .header-left-side-viaferrata img {
+    width: 50%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .grid-section {
+    padding-top: 20px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .grid-item {
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .grid-item-1 {
+    padding-top: 10px;
+    width: 100%;
+    background: none;
+  }
+  .grid-item-1 a {
+    color: rgb(87, 84, 84);
+    text-shadow: none;
+  }
+  .grid-item-1 a:hover {
+    color: rgb(12, 12, 12);
+    text-shadow: none;
+   
+  }
+}

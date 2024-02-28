@@ -5,22 +5,22 @@ function Container(props) {
         <div className="row">
         <div className="col-lg-6">
           <div className="container midle-section">
-            <div className="row align-self-center" className="text">
+            <div className="row align-self-center text">
               <p className="text-center">
                 "The best view comes after the hardest climb."
               </p>
             </div>
-            <div className="row align-self-center" className="title">
+            <div className="row align-self-center title" >
               <h1 className="text-center">Mountain trips</h1>
             </div>
-            <div className="row align-items-center center">
-            <div className="col-lg-2 col-md-6 col-sm-6 mx-auto">
-              <img src={Hiking_Boots} className="App-Hiking_Boots" alt="Hiking_Boots" className="img-fluid"
+            <div className="row align-items-center center-center">
+            <div className="col-lg-2 col-md-6 col-sm-6 mx-auto colored-image ">
+              <img src={Hiking_Boots} className="App-Hiking_Boots img-fluid" alt="Hiking_Boots"
                 width="60px"
-                height="50px"
+                height="40px"
               />
             </div>
-            <div className="col-lg-10 col-md-6 col-sm-6">
+            <div className="col-lg-10 col-md-6 col-sm-6 midle">
               <p className="mb-0">"Life is better in hiking <span>boots</span>.”</p>
             </div>
           </div>

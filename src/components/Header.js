@@ -1,10 +1,12 @@
 import mountain from "../assets/mountain.png";
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
-    <div className="header">
-      <div className="header-left-side ">
+    <div className="header-giumalau">
+      <div className="header-left-side-header ">
         <div className="row">
-          <div classNames="col-lg-4 col-md-6 col-sm-6 mobileHidden">
+          <div className="col-lg-4 col-md-6 col-sm-6 mobileHidden">
             <div className="header-left-side-icon text-center">
               <img
                 src={mountain}
@@ -32,8 +34,10 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav">
                     <li className="nav-item">
-                      <a className="nav-link" href="#">
-                        Via Ferrata
+                      <a className="nav-link">
+                        <Link to="/ViaFerrata" className="nav-link">
+                          Via Ferrata
+                        </Link>
                       </a>
                     </li>
                     <li className="nav-item">
