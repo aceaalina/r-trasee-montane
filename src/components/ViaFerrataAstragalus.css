@@ -209,9 +209,6 @@ ul {
   font-family: "helvetica neue";
 }
 
-.equipment {
-}
-
 .equipment-viaferrata p {
   margin-top: 10px;
   font-size: 20px;
@@ -255,17 +252,19 @@ ul {
     position: relative;
     overflow: hidden;
   }
-  
+
   figure img {
     width: 100%;
     height: auto;
     transition: transform 0.3s ease-in-out;
   }
-  
+
   figure:hover img {
-    transform: scale(1.2); /* Modificați valoarea la nevoie pentru a obține efectul dorit */
+    transform: scale(
+      1.2
+    ); /* Modificați valoarea la nevoie pentru a obține efectul dorit */
   }
-  
+
   figcaption {
     position: absolute;
     bottom: 0;
@@ -293,50 +292,55 @@ ul {
   width: 100%;
 }
 .warning-section img {
- margin: 0;
- padding: 10px;
+  margin: 0;
+  padding: 10px;
 }
 .warning-section p {
   display: flex;
-
 }
 .table {
   overflow-x: auto;
 }
 
-@media screen and (max-width: 950px) {
- 
+@media (min-width: 100px) and (max-width: 1000px) {
   .table table {
-    width: 100%; 
-    border-collapse: collapse; 
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
   }
   .table th,
   .table td {
-    padding: 8px; 
-    border-bottom: 1px solid #ddd; 
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
     text-align: left;
     margin: 2px;
   }
 }
 @media screen and (max-width: 576px) {
-
   .table table {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
   }
   .table table tr {
-    border-bottom: 1px solid #ddd; 
-    margin-bottom: 10px; 
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
   }
   .table table td {
     display: flex;
-    justify-content: space-between; 
-    padding: 6px; 
+    justify-content: space-between;
+    padding: 6px;
   }
   .table table th,
   .table table td {
     text-align: left;
     font-size: 16px;
   }
-  
+}
+@media (min-width: 576px) and (max-width: 1000px) {
+  .header-left-side-viaferrata {
+    width: 60%;
+  }
+  .header-viaferrata {
+    height: 80px;
+  }
 }

@@ -228,7 +228,7 @@ const ViaFerrataAstragalus = (props) => {
               </table>
             </div>
           </div>
-          <p>*Info: Traseul a fost pracurs in 22 august 2021.</p>
+          <p>*Info: Traseul pracurs in 22 august 2021.</p>
           <h2>Poze:</h2>
           <div className="container">
             <div className="row">

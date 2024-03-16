@@ -273,6 +273,8 @@
     width: 100%;
     height: 50%;
     background-image: url("../assets/assets\ for\ Via\ Ferrata/viaferrata01.jpg");
+    backdrop-filter: blur(5px);
+    background-color: rgba(239, 230, 230, 0.5);
     color: #ffffff;
     text-shadow: 5px 5px 10px rgba(24, 141, 250, 0.664);
     display: flex;
@@ -292,10 +294,11 @@
     align-items: center;
   }
   .up h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
+    font-weight: lighter;
     padding: 0;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 0;
   }
   .up h2 {
     font-size: 20px;
@@ -312,7 +315,6 @@
   }
   .header-buttons-viaferrata button {
     margin: 5px;
-    
   }
   .header-buttons-viaferrata p:hover {
     font-size: 18px;
@@ -355,6 +357,95 @@
   .grid-item-1 a:hover {
     color: rgb(12, 12, 12);
     text-shadow: none;
-   
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .grid-section {
+    padding-top: 20px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .grid-item-1 .grid-item {
+    display: block;
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 1000px) {
+  .header-left-side-viaferrata {
+    width: 60%;
+  }
+  .header-viaferrata {
+    height: 80px;
+  }
+  .center-viaferrata {
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+  }
+  .up {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .up h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .up h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+  .header-buttons-viaferrata {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-buttons-viaferrata button {
+    margin: 5px;
+  }
+  .header-buttons-viaferrata p:hover {
+    font-size: 16px;
+    transition-duration: 0.25s;
+  }
+  p {
+    font-size: 12px;
+    font-family: "helvetica neue";
+    padding: 3px;
+    margin: 0;
+  }
+  .header-left-side-viaferrata img {
+    width: 50%;
+    height: auto;
+  }
+  .next {
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+    position: fixed;
+  }
+  .grid-item-1 {
+    position: relative;
+  }
+  .grid-item-1 a {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+  }
+  .grid-section {
+    grid-gap: 12px;
   }
 }
